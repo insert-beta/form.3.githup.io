@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form.3</title>
+</head>
+<body>
+    <h1><em>User Registartion Form</em></h1>
+    <form action="/submit_form" method="post">
+    <fieldset>
+        
+        <legend><em><marquee style="background-color: rgb(144, 223, 148);"  
+             direction="right">Personal Information</marquee></em></legend>
+             <br>
+             <br>
+             <label for="name"><em><strong>Name :</strong></em></label>
+             <br>
+             
+             <center>
+                <input type="text" id="name" name="name" style="background-color: rgb(152, 234, 255);">
+            </center>
+            <br>
+            <label for="email"><em><strong>Email Address ::</strong></em></label>
+            <center>
+                <input type="email" id="email" name="email" style="background-color: rgb(152, 234, 255);">
+            </center>
+            <br>
+            <label for="password"> <em><strong>Password</strong></em></label>
+            <center>
+                <input type="password" id="password" name="password" style="background-color: rgb(152, 234, 255);">
+            </center>
+            <br>
+            <label for="confrompassword"><em><strong>Confrom Password</strong></em></label>
+            <center>
+                <input type="password" id="confrompassword" name="confrompassword" style="background-color: rgb(152, 234, 255);">
+            </center>
+    </fieldset>
+    <br>
+    <br>
+    <Fieldset>
+        <Legend><em><marquee 
+            style="background-color: aqua;" direction="left">Address Detailes</marquee></em></Legend>
+            <br>
+            
+            <label for="addressL.1"><em><strong>Address Line One :</strong></em></label>
+            <center>
+                <input type="text" id="addressL.1" name="addressL.1" style="background-color: rgb(152, 234, 255);">
+            </center>
+            <br>
+            <br>
+            <label for="addressL.2"><em><strong>Address Line Two :</strong></em></label>
+            <center>
+                <input type="text" id="addressL.2" name="addressL.2" style="background-color: rgb(152, 234, 255);">
+            </center>
+            <br>
+            <br>
+            <label for="town"><em><strong>Town/city :</strong></em></label>
+            <center>
+                <select name="town" id="town" style="background-color: rgb(152, 234, 255);">
+                    <option value="Karachi">Karachi</option>
+        <option value="Lahore">Lahore</option>
+          <option value="Islamabad">Islamabad</option>  
+          <option value="Rawalpindi">Rawalpindi</option>  
+          <option value="Faisalabad">Faisalabad</option> 
+           <option value="Multan">Multan</option> 
+            <option value="Peshawar">Peshawar</option>  
+            <option value="Quetta">Quetta</option>  
+            <option value="Sialkot">Sialkot</option>
+              <option value="Gujranwala">Gujranwala</option>
+                </select>
+            </center>
+            <br>
+            <br>
+            <label for="zip"><em><strong>Zip/Post Code :</strong></em></label>
+            <center>
+                <input type="password" id="zip" name="zip" style="background-color: rgb(152, 234, 255);">
+            </center>
+    </Fieldset>
+    <br>
+    <input type="submit" id="submit"  name="submit">
+</form>
+    <center>
+        <button><a href="about.html"><em>Next Page>>></em></a></button>
+    </center>
+
+    
+</body>
+</html>
